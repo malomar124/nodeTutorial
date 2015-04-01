@@ -9,7 +9,7 @@ app.get('/', function(req, res) {
 });
 
 app.get('/hello', function(req, res) {
-	res.send("<p> This is extremely new to me " + req.query.name + ". I have no idea what to try but " + req.query.friend + " is helping me! <p>" );
+	res.send("<p> This is extremely new to me " + req.query.name + ". I have no idea what to type but " + req.query.friend + " is helping me learn shit!! <p>" );
 });
 
 app.listen(app.get('port'), function() {

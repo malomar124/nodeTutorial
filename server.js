@@ -9,7 +9,7 @@ app.get('/', function(req, res) {
 });
 
 app.get('/hello', function(req, res) {
-	res.sendfile("<p> This is extremely new to me" + req.query.name + " <p>" );
+	res.send("<p> This is extremely new to me" + req.query.name + " <p>" );
 });
 
 app.listen(app.get('port'), function() {
